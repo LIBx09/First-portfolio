@@ -199,12 +199,28 @@ nav a{
 
     footer{
         display: flex;
+        gap: 100px;
         justify-content: space-between;
         margin-top: 100px;
-        padding: 130px 230px;
+        padding: 130px 200px;
         background: #FFF8F3;
     }
-    .section-title{
-        /* text-align: center;
-        margin-right: 100px; */
+    .footer-column{
+        width: 50%;
+    }
+
+    .contact input, textarea{
+        display: block;
+        margin-bottom: 20px;
+        padding: 18px 35px;
+        color: #757575;
+        border-radius: 10px;
+        border: 0;
+        width: 100%;
+    }
+    .btn{
+        background: #FD6E0A;
+    }
+    .social-links a{
+        margin-right: 25px ;
     }
