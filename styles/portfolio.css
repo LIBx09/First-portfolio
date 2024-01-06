@@ -54,9 +54,9 @@ nav a{
 /* header related style */
 .header{
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     }
     .banner{
         padding: 40px 70px 0 150px;
@@ -137,7 +137,6 @@ nav a{
         /* border: 1px solid; */
         /* padding-right: 10px; */
         justify-content: space-around;
-       
         gap: 24px;
     }
 
